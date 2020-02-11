@@ -1,0 +1,13 @@
+1.- cd Desktop
+
+2.- cd /Git_Clase
+
+3.- git add BBDD/
+
+4.- git add Programacion/
+
+5.- git commit -m "Primera entrega"
+
+6.- git remote add origin https://github.com/RodrigoMatatoros/FP_DW1e_1920.git
+
+7.- git push -u origin master
