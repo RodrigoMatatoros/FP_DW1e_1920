@@ -1,0 +1,69 @@
+package Cliente;
+ 
+class Cliente 
+{
+	
+	private String id;
+	private String nombre;
+	private double sueldo;
+	private boolean vip;
+	
+	
+	public Cliente()
+	{
+		
+	}
+	
+	public Cliente(String id, String nombre, boolean vip)
+	{
+		this.id=id;
+		this.nombre=nombre;
+		this.vip=vip;
+		
+		
+	}
+	public Cliente(String id, String nombre, double sueldo, boolean vip)
+	{
+		this.id=id;
+		this.nombre=nombre;
+		this.sueldo=sueldo;
+		this.vip=vip;
+	}
+
+	public String getId() {
+		return id;
+	}
+
+	public void setId(String id) {
+		this.id = id;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public double getSueldo() {
+		return sueldo;
+	}
+
+	public void setSueldo(double sueldo) {
+		this.sueldo = sueldo;
+	}
+
+	public boolean isVip() {
+		return vip;
+	}
+
+	public void setVip(boolean vip) {
+		this.vip = vip;
+	}
+	
+	public toString()
+	{
+		System.out.println("El cilente de ID "+id+", de nombre "+nombre+" y de fecha de nacimiento el, tiene un sueldo de "+sueldo+"€ y es "+vip);
+	}
+}
